@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
 
-# Create your views here.
+from . models import Category, NewsData
+
+# @api_view(['GET', 'POST'])
+# def CategoryList(request, pk=None):
+
