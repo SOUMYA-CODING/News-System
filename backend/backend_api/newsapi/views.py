@@ -22,7 +22,7 @@ def CategoryList(request, pk=None):
         return Response(serializer.data)
 
 
-# Category API
+# News Data API
 @api_view(['GET'])
 def NewsList(request, pk=None):
     # Get the ID
