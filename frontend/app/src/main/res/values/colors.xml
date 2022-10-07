@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--  Default Colors  -->
+    <color name="app_bar_color">#E21E22</color>
+
+    <!--  Light Mode Colors  -->
+    <color name="text_color_light">#111111</color>
+    <color name="background_color_light">#FFFFFF</color>
+
+    <!--  Dark Mode Colors  -->
+    <color name="text_color">#FFFFFF</color>
+    <color name="background_color">#111111</color>
 </resources>

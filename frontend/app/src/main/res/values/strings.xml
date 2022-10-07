@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">News App</string>
+    <string name="app_name">Argus News</string>
+
+    <!--  Walk through Screen  -->
+    <string name="title_one">Local Update</string>
+    <string name="title_two">Trending News</string>
+    <string name="title_three">Life Stories</string>
+
+    <String name="description_one"></String>
+    <String name="description_two"></String>
+    <String name="description_three"></String>
 </resources>

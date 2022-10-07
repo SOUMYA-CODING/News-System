@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SplashScreen"
+            android:name=".splash_page.SplashScreen"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -41,7 +41,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".splash_page.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
