@@ -6,7 +6,7 @@
     <string name="title_two">Trending News</string>
     <string name="title_three">Life Stories</string>
 
-    <String name="description_one"></String>
-    <String name="description_two"></String>
-    <String name="description_three"></String>
+    <String name="description_one">Hello</String>
+    <String name="description_two">Hello</String>
+    <String name="description_three">Hello</String>
 </resources>
