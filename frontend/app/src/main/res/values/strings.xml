@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">News App</string>
+
+    <!--  Custom Text  -->
+    <string name="welcome_title">Welcome to News TV</string>
+    <string name="registration">Registration</string>
+    <string name="skip_message">Skip for now</string>
 </resources>
