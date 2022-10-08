@@ -2,4 +2,5 @@
     <string name="app_name">News App</string>
     <!--  Custom Test  -->
     <string name="breaking_news">Breaking News</string>
+    <string name="latest_news">Latest News</string>
 </resources>
