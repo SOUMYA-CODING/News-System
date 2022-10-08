@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.example.newsapp.R
-import com.example.newsapp.onboarding.OnboardingScreen
+import com.example.newsapp.dashboard.HomeScreen
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +14,7 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, OnboardingScreen::class.java)
+            val intent = Intent(this, HomeScreen::class.java)
             startActivity(intent)
             finish()
         }, 1200)
