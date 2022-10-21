@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Argus News</string>
+
+    <!--  Language Selection  -->
+    <string name="choose_your_language">Choose Your Language</string>
+    <string name="english">English</string>
+    <string name="odia">ଓଡିଆ</string>
 </resources>

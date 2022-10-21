@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.example.newsapp.R
-import com.example.newsapp.activity.onboardingpage.OnboardingScreen
+import com.example.newsapp.activity.language.LanguageSelectionScreen
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
@@ -19,7 +19,7 @@ class SplashScreen : AppCompatActivity() {
         val splashScreenTime: Long = 1000
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, OnboardingScreen::class.java)
+            val intent = Intent(this, LanguageSelectionScreen::class.java)
             startActivity(intent)
             finish()
         }, splashScreenTime)

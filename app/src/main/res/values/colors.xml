@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
 
     <!--  Custom Colors  -->
+    <color name="transparent">#00000000</color>
+    <color name="red">#E21E22</color>
 </resources>
