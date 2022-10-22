@@ -8,7 +8,7 @@ import android.os.Handler
 import android.os.Looper
 import com.example.newsapp.R
 import com.example.newsapp.activity.homepage.HomeScreen
-import com.example.newsapp.activity.language.LanguageSelectionScreen
+import com.example.newsapp.activity.languagepage.LanguageSelectionScreen
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {

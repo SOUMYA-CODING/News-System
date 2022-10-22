@@ -21,4 +21,8 @@
     <string name="latestnewsOR">ତାଜା ଖବର</string>
     <string name="yournewsOR">ତୁମର ଖବର</string>
     <string name="viewOR">ଦର୍ଶନ କରନ୍ତୁ</string>
+
+    <string name="demotitleOR">ସଡକ ଦୁର୍ଘଟଣା</string>
+    <string name="demodescOR">OSRTC ବସ୍ ଗାଜାପାଟୀରେ ରାସ୍ତାରେ ସ୍କିଡ୍ କରେ, ଯାତ୍ରୀମାନଙ୍କ ପାଇଁ ବନ୍ଦ ସେଭ୍</string>
+    <string name="demotime">12 min ago</string>
 </resources>

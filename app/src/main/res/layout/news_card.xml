@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="150dp"
+        android:background="@color/grey">
 
         <ImageView
             android:id="@+id/news_img"
@@ -14,39 +16,52 @@
             android:contentDescription="@string/app_name"
             android:src="@drawable/demo_img" />
 
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/news_content"
+        <TextView
+            android:id="@+id/news_title"
             android:layout_width="200dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
             android:layout_toEndOf="@id/news_img"
-            android:orientation="vertical">
+            android:fontFamily="@font/poppins_extrabold"
+            android:text="@string/demotitleOR"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/news_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:fontFamily="@font/poppins_extrabold"
-                android:text="@string/app_name"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/news_description"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/news_title"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@+id/news_img"
+            android:text="@string/demodescOR"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="10dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_more_vert"
+            tools:ignore="TouchTargetSizeCheck" />
 
-            <TextView
-                android:id="@+id/news_description"
-                android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:fontFamily="@font/poppins_extrabold"
-                android:text="@string/descriptionOneOR"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/demotime"
+            android:textColor="@color/black"
+            tools:ignore="RelativeOverlap" />
 
     </RelativeLayout>
 

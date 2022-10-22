@@ -11,4 +11,5 @@
     <!--  Custom Colors  -->
     <color name="transparent">#00000000</color>
     <color name="red">#E21E22</color>
+    <color name="grey">#F6F6F6</color>
 </resources>
