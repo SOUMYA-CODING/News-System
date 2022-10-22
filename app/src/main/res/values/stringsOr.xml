@@ -1,6 +1,7 @@
 <resources>
     <!--  Oria Format  -->
 
+    <!--  Common  -->
     <string name="nextOR">ପରବର୍ତ୍ତୀ</string>
     <string name="getStartedOR">ଆରମ୍ଭ ହୋଇଗଲା</string>
     <string name="skipOR">ଛାଡିଦିଅ</string>
@@ -13,4 +14,11 @@
     <string name="descriptionOneOR">ଏହା ଏକ ଦୀର୍ଘ ସ୍ଥାପିତ ସତ୍ୟ ଯେ ପାଠକ ଏହାର ଲେଆଉଟ୍ ଦେଖିବାବେଳେ ଏକ ପୃଷ୍ଠାର ପଠନୀୟ ବିଷୟବସ୍ତୁ ଦ୍ୱାରା ବିଭ୍ରାନ୍ତ ହେବ</string>
     <string name="descriptionTwoOR">ଏହା ଏକ ଦୀର୍ଘ ସ୍ଥାପିତ ସତ୍ୟ ଯେ ପାଠକ ଏହାର ଲେଆଉଟ୍ ଦେଖିବାବେଳେ ଏକ ପୃଷ୍ଠାର ପଠନୀୟ ବିଷୟବସ୍ତୁ ଦ୍ୱାରା ବିଭ୍ରାନ୍ତ ହେବ</string>
     <string name="descriptionThreeOR">ଏହା ଏକ ଦୀର୍ଘ ସ୍ଥାପିତ ସତ୍ୟ ଯେ ପାଠକ ଏହାର ଲେଆଉଟ୍ ଦେଖିବାବେଳେ ଏକ ପୃଷ୍ଠାର ପଠନୀୟ ବିଷୟବସ୍ତୁ ଦ୍ୱାରା ବିଭ୍ରାନ୍ତ ହେବ</string>
+
+    <!--  Home Screen  -->
+    <string name="breaking_newsOR">ତାଜା ଖବର</string>
+    <string name="newsinpictureOR">ଛବିରେ ଖବର</string>
+    <string name="latestnewsOR">ତାଜା ଖବର</string>
+    <string name="yournewsOR">ତୁମର ଖବର</string>
+    <string name="viewOR">ଦର୍ଶନ କରନ୍ତୁ</string>
 </resources>

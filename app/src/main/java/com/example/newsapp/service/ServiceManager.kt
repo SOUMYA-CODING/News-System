@@ -19,5 +19,4 @@ import retrofit2.http.Url;
 
 class ServiceManager {
     val apiURL = "https://soumyasahu.live/"
-
 }
