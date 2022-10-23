@@ -1,4 +1,4 @@
-package com.example.newsapp.service
+package com.example.newsapp.network
 
 // Retrofit Package
 import retrofit2.Call
